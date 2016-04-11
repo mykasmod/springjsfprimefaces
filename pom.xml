@@ -45,7 +45,7 @@
   </dependencies>
   <dependencyManagement>
   	<dependencies>
-  		<!-- auto use version --> 
+  		<!-- auto use version for all spring lib--> 
   		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-framework-bom</artifactId>

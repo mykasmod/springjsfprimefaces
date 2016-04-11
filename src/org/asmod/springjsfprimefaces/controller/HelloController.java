@@ -5,10 +5,10 @@ import javax.faces.bean.ManagedProperty;
 
 import org.asmod.springjsfprimefaces.service.HelloSpringService;
 
-@ManagedBean
+@ManagedBean //HelloController is created by JSF runtime
 public class HelloController {
 	
-	@ManagedProperty("#{helloSpringService}") //spring bean name
+	@ManagedProperty("#{helloSpringService}") //inject a value into helloSpringService property
 	private HelloSpringService helloSpringService; 
 	
 	public String showHello(){
